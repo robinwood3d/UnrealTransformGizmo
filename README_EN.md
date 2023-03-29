@@ -1,22 +1,17 @@
 # UE5RuntimeTransformGizmo
 
-# English Documentation
-[English Documentation](README_EN.md)
-
-## 更新说明
-还是后面慢慢改良吧~  
+## Preview
 ![](Documentation/Images/visual_translate.png)  
 ![](Documentation/Images/visual_rotate.png)  
 ![](Documentation/Images/visual_scale.png)  
 ![](Documentation/Images/visual_combined.png)  
 
 
-## 使用方法
-1. 打开该项目并在内容浏览器中右击Mytaverse这个文件夹，选择迁移到你的项目Content目录下  
+## Basic Usage
+1. Open this project and right click the "Mytaverse" folder in the content browser, select to migrate to your project's content  
 ![](Documentation/Images/migrate_content.png)  
-    - 当然也可以直接跳过打开这个项目，直接在Window的文件夹浏览器中将项目Content文件夹下的Mytaverse文件夹整个复制到你的项目的Content文件夹下
 
-2. 打开你的项目所使用的Pawn（或Character）蓝图类（我这个功能是纯蓝图做的，所以只能在蓝图里使用），添加一个名为Pointer Interaction的组件  
+2. Open the Pawn(or Character) Blueprint used by your project (You can only use it in blueprints since it's a pure blueprint feature), and then add a component called "Pointer Interaction"  
 ![](Documentation/Images/add_component.gif)
 
 3. 在Pawn蓝图的BeginPlay事件逻辑后面调用PointerInteraction组件的SetupInteraction节点，同时调用PlayerController的SetShowMouseCursor来显示鼠标  
