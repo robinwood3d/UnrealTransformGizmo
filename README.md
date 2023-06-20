@@ -4,7 +4,8 @@
 [English Documentation](README_EN.md)
 
 ## 更新说明
-还是后面慢慢改良吧~  
+用于运行时的简单交互式变换小工具~  
+初步实现了触控操作~  
 ![](Documentation/Images/visual_translate.png)  
 ![](Documentation/Images/visual_rotate.png)  
 ![](Documentation/Images/visual_scale.png)  
@@ -45,4 +46,5 @@
 ![](https://images.squarespace-cdn.com/content/v1/574f72911d07c08c97939643/1608324621401-5CLYGEIS5S5GF1CNNS0M/ToolsFrameworkDemo_Gizmo.png?format=300w)  
 [参考文章1](https://www.gradientspace.com/tutorials/2022/6/1/the-interactive-tools-framework-in-ue5)  
 [参考文章2](https://www.gradientspace.com/tutorials/2021/01/19/the-interactive-tools-framework-in-ue426)
+- 可以尝试一下[ScriptableToolsFramework](https://github.com/EpicGames/UnrealEngine/tree/407acc04a93f09ecb42c07c98b74fd00cc967100/Engine/Plugins/Experimental/ScriptableToolsFramework/Source/ScriptableToolsFramework)模块
 
