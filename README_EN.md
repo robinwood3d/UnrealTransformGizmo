@@ -32,12 +32,14 @@ Made a prototype for touch device support
 ![](Documentation/Images/activate_gizmo.png)  
     - InitialTransform: it means the gizmo's initial transform, usually when you want to enable gizmo on an actor, you should pass it's transform to the gizmo's initial transform
     - TransformEvent: it binds the event which will be called when dragging the gizmo
-    - Currently the gizmo blueprint only takes in a initial transform value and then we drag it to compute the world transform value, it doesn't modify the object transform directly. But we can get the world transform value from a event dispatcher called "On Apply World Transform". Then you can do whatever you want with this transform value
+    - Currently the gizmo blueprint only takes in a initial transform value and then we drag it to compute the world transform value, it doesn't modify the object transform directly. But we can get the world transform value from a event dispatcher called "OnUpdateTransform". Then you can do whatever you want with this transform value
 
-6. Contorl Functions List
-![](Documentation/Images/control_api.png)
+## Functions List
+![](Documentation/Images/api_controls.png)  
+![](Documentation/Images/api_grid_snap.png)  
+![](Documentation/Images/api_events.png)  
 
-## 其他
+## Other Useful Info
 - UE5 already has this feature build in, you can use it in runtime build. Check the codes in the
 [InteractiveToolsFramework](https://github.com/EpicGames/UnrealEngine/tree/release/Engine/Source/Runtime/InteractiveToolsFramework) module  
 ![](https://images.squarespace-cdn.com/content/v1/574f72911d07c08c97939643/1608324621401-5CLYGEIS5S5GF1CNNS0M/ToolsFrameworkDemo_Gizmo.png?format=300w)  

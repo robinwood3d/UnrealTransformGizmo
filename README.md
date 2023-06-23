@@ -38,8 +38,10 @@
     - ActivateGizmo方法的InitialTransform表示显示Gizmo时候的初始Transform，一般在对一个Actor启用Gizmo的时候要把该Actor的Transform传入
     - TransformEvent会在拖拽Gizmo的时候持续调用并传出当前计算得到的Transform结果，这个结果可以根据需要来使用
 
-6. 控制函数列表
-![](Documentation/Images/control_api.png)
+## 函数列表
+![](Documentation/Images/api_controls.png)  
+![](Documentation/Images/api_grid_snap.png)  
+![](Documentation/Images/api_events.png)  
 
 ## 其他
 - UE5其实已经内置这个功能了，可以运行时使用，可以在引擎的[InteractiveToolsFramework](https://github.com/EpicGames/UnrealEngine/tree/release/Engine/Source/Runtime/InteractiveToolsFramework)模块中找到相关代码  
