@@ -1,4 +1,4 @@
-# UE5RuntimeTransformGizmo
+# UnrealTransformGizmo
 
 # English Documentation
 [English Documentation](README_EN.md)
@@ -6,11 +6,16 @@
 ## 更新说明
 用于运行时的简单交互式变换小工具~  
 初步实现了触控操作~  
-![](Documentation/Images/visual_translate.png)  
-![](Documentation/Images/visual_rotate.png)  
-![](Documentation/Images/visual_scale.png)  
-![](Documentation/Images/visual_combined.png)  
+<img src="Documentation/Images/visual_translate.png" width="320" height="180" />
+<img src="Documentation/Images/visual_rotate.png" width="320" height="180" />
+<img src="Documentation/Images/visual_scale.png" width="320" height="180" />
+<img src="Documentation/Images/visual_combined.png" width="320" height="180" />
 
+效果  
+<img src="Documentation/Images/demo_translate.gif" width="320" height="180" />
+<img src="Documentation/Images/demo_rotate.gif" width="320" height="180" />
+<img src="Documentation/Images/demo_scale.gif" width="320" height="180" />
+<img src="Documentation/Images/demo_combined.gif" width="320" height="180" />
 
 ## 使用方法
 1. 打开该项目并在内容浏览器中右击Mytaverse这个文件夹，选择迁移到你的项目Content目录下  
@@ -42,11 +47,3 @@
 ![](Documentation/Images/api_controls.png)  
 ![](Documentation/Images/api_grid_snap.png)  
 ![](Documentation/Images/api_events.png)  
-
-## 其他
-- UE5其实已经内置这个功能了，可以运行时使用，可以在引擎的[InteractiveToolsFramework](https://github.com/EpicGames/UnrealEngine/tree/release/Engine/Source/Runtime/InteractiveToolsFramework)模块中找到相关代码  
-![](https://images.squarespace-cdn.com/content/v1/574f72911d07c08c97939643/1608324621401-5CLYGEIS5S5GF1CNNS0M/ToolsFrameworkDemo_Gizmo.png?format=300w)  
-[参考文章1](https://www.gradientspace.com/tutorials/2022/6/1/the-interactive-tools-framework-in-ue5)  
-[参考文章2](https://www.gradientspace.com/tutorials/2021/01/19/the-interactive-tools-framework-in-ue426)
-- 可以尝试一下[ScriptableToolsFramework](https://github.com/EpicGames/UnrealEngine/tree/407acc04a93f09ecb42c07c98b74fd00cc967100/Engine/Plugins/Experimental/ScriptableToolsFramework/Source/ScriptableToolsFramework)模块
-

@@ -1,12 +1,18 @@
-# UE5RuntimeTransformGizmo
+# UnrealTransformGizmo
 
 ## Preview
 A Simple tool to transform object at runtime game  
 Made a prototype for touch device support  
-![](Documentation/Images/visual_translate.png)  
-![](Documentation/Images/visual_rotate.png)  
-![](Documentation/Images/visual_scale.png)  
-![](Documentation/Images/visual_combined.png)  
+<img src="Documentation/Images/visual_translate.png" width="320" height="180" />
+<img src="Documentation/Images/visual_rotate.png" width="320" height="180" />
+<img src="Documentation/Images/visual_scale.png" width="320" height="180" />
+<img src="Documentation/Images/visual_combined.png" width="320" height="180" />
+
+Demo  
+<img src="Documentation/Images/demo_translate.gif" width="320" height="180" />
+<img src="Documentation/Images/demo_rotate.gif" width="320" height="180" />
+<img src="Documentation/Images/demo_scale.gif" width="320" height="180" />
+<img src="Documentation/Images/demo_combined.gif" width="320" height="180" />
 
 
 ## Basic Usage
@@ -38,12 +44,4 @@ Made a prototype for touch device support
 ![](Documentation/Images/api_controls.png)  
 ![](Documentation/Images/api_grid_snap.png)  
 ![](Documentation/Images/api_events.png)  
-
-## Other Useful Info
-- UE5 already has this feature build in, you can use it in runtime build. Check the codes in the
-[InteractiveToolsFramework](https://github.com/EpicGames/UnrealEngine/tree/release/Engine/Source/Runtime/InteractiveToolsFramework) module  
-![](https://images.squarespace-cdn.com/content/v1/574f72911d07c08c97939643/1608324621401-5CLYGEIS5S5GF1CNNS0M/ToolsFrameworkDemo_Gizmo.png?format=300w)  
-[Ref Article1](https://www.gradientspace.com/tutorials/2022/6/1/the-interactive-tools-framework-in-ue5)  
-[Ref Article2](https://www.gradientspace.com/tutorials/2021/01/19/the-interactive-tools-framework-in-ue426)
-- And check out the brand new [ScriptableToolsFramework](https://github.com/EpicGames/UnrealEngine/tree/407acc04a93f09ecb42c07c98b74fd00cc967100/Engine/Plugins/Experimental/ScriptableToolsFramework/Source/ScriptableToolsFramework) module in the UE5.2 which is greate!
 
