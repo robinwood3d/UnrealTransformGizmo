@@ -4,6 +4,7 @@
 [English Documentation](README_EN.md)
 
 ## 更新说明
+[演示视频](https://www.bilibili.com/video/BV11c411V7aQ)  
 用于运行时的简单交互式变换小工具~  
 初步实现了触控操作~  
 <img src="Documentation/Images/visual_translate.png" width="320" height="180" />
@@ -43,7 +44,7 @@
     - ActivateGizmo方法的InitialTransform表示显示Gizmo时候的初始Transform，一般在对一个Actor启用Gizmo的时候要把该Actor的Transform传入
     - TransformEvent会在拖拽Gizmo的时候持续调用并传出当前计算得到的Transform结果，这个结果可以根据需要来使用
 
-## 函数列表
+## 接口列表
 ![](Documentation/Images/api_controls.png)  
-![](Documentation/Images/api_grid_snap.png)  
+![](Documentation/Images/api_properties.png)  
 ![](Documentation/Images/api_events.png)  

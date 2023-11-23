@@ -1,6 +1,7 @@
 # UnrealTransformGizmo
 
 ## Preview
+[Demo Video](https://www.bilibili.com/video/BV11c411V7aQ)  
 A Simple tool to transform object at runtime game  
 Made a prototype for touch device support  
 <img src="Documentation/Images/visual_translate.png" width="320" height="180" />
@@ -40,8 +41,8 @@ Demo
     - TransformEvent: it binds the event which will be called when dragging the gizmo
     - Currently the gizmo blueprint only takes in a initial transform value and then we drag it to compute the world transform value, it doesn't modify the object transform directly. But we can get the world transform value from a event dispatcher called "OnUpdateTransform". Then you can do whatever you want with this transform value
 
-## Functions List
+## API List
 ![](Documentation/Images/api_controls.png)  
-![](Documentation/Images/api_grid_snap.png)  
+![](Documentation/Images/api_properties.png)  
 ![](Documentation/Images/api_events.png)  
 
